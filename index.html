@@ -1,5 +1,83 @@
 <!-- 1. create the basic html structure. your structure should include a blue heading and a red paragragh with font size 15px -->
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLP HACKATHON</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>16th March Hackathon Challenge</h1>
+  </header>
+  <p class="paragragh">
+    this is a paragrapgh
+    <a href="https://www.google.com" target="_blank">Visit Google Website</a>
+    <section>
+      <img src="images/sea II.jpg" alt="Image of a Lake">
+    </section>
+    <br>
+    <section>
+      <form action="get" method="post" enctype="multipart/form-data">
+        <td>
+          <tr>
+            <label for="name">Name: </label>
+            <input type="text" id="name" class="name" placeholder="surname firstname middlename">
+          </tr>
+        </td><br>
+        <td>
+          <tr>
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="email" placeholder="johndoe@gmail.com">
+          </tr>
+        </td>
+        <td><br>
+          <tr>
+            <label for="contact">Telephone: </label>
+            <input type="tel" id="contact" class="contact" placeholder="2547">
+          </tr>
+        </td><br>
+        <td>
+          <tr>
+          <label for="age">Age: </label>
+          <input type="number" id="age" class="age" placeholder="How old are you?">
+          </tr>
+        </td><br>
+        <fieldset>
+          <legend>Gender</legend>
+          <input type="radio" name="gender" id="gender" value="Male">
+          <label for="gender">Male</label>
+          <input type="radio" name="gender" id="gender" value="Female">
+          <label for="gender">Female</label>
+        </fieldset>
+         <fieldset>
+          <legend>SUBJECTS</legend>
+          <select name="subjects" id="subjects">
+            <option value="">--Select subjects here--</option>
+            <option value="english">English</option>
+            <option value="math">Mathematics</option>
+            <option value="scie">Science</option>
+            <option value="agri">Agriculture</option>
+            <option value="art">Art and Craft</option>
+            <option value="geo">Geography</option>
+            <option value="history">History</option>
+          </select>
+         </fieldset><br>
+         <td>
+          <tr>
+            <label for="password">Input Password</label>
+            <input type="text" id="password" class="password" placeholder="enter your password" required>
+          </tr>
+         </td><br>
+         <input type="button" value="Register">
+         <input type="button" value="Cancel">
+         
+      </form>
+    </section>
+  </p>
+</body>
+</html>
 
 <!-- 2. in your html file, add a link that opens a new tab to an external resource  -->
 
